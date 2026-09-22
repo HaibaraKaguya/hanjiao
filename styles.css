@@ -2150,4 +2150,6 @@ section[id], footer[id] { scroll-margin-top: calc(var(--nav-h) + var(--space-4))
 .case-media__label{font-size:14px;color:#f07842;margin:0 0 10px}
 .case-media__caption,.case-media figcaption{font-size:13px;color:#aebed0;margin-top:10px;line-height:1.5}
 .case-grid--filled .case-card:nth-child(n+4){display:none}
+.visual-rail--text .visual-card svg{display:none}
+.visual-rail--text .visual-card{min-height:92px;display:flex;align-items:center}
 @media (max-width:900px){.evidence-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}.case-media{grid-template-columns:1fr}}

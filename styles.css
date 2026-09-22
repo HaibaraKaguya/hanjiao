@@ -2168,4 +2168,5 @@ section[id], footer[id] { scroll-margin-top: calc(var(--nav-h) + var(--space-4))
 main p:not(.eyebrow):not(.case-media__label):not(.topic-video__label):not(.viz-caption){text-indent:2em;line-height:1.9}
 .hero__sub{text-indent:2em;line-height:1.9}
 .case-entry{display:flow-root;overflow:visible}
+.case-entry{display:none!important}
 .case-entry .topic-proof,.case-entry .topic-video{position:relative;z-index:1}
